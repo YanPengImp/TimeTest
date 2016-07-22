@@ -13,6 +13,12 @@
 		7014E8461D41DE4B005A59B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7014E8441D41DE4B005A59B4 /* Main.storyboard */; };
 		7014E8481D41DE4B005A59B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7014E8471D41DE4B005A59B4 /* Assets.xcassets */; };
 		7014E84B1D41DE4B005A59B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7014E8491D41DE4B005A59B4 /* LaunchScreen.storyboard */; };
+		7014E8541D41DE62005A59B4 /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7014E8531D41DE62005A59B4 /* CDViewController.m */; };
+		7014E8571D41DEA6005A59B4 /* TimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7014E8561D41DEA6005A59B4 /* TimeObject.m */; };
+		7014E85A1D41DED4005A59B4 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7014E8591D41DED4005A59B4 /* NavigationController.m */; };
+		7014E85D1D41E019005A59B4 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7014E85C1D41E019005A59B4 /* ViewController1.m */; };
+		7014E8631D41EFEF005A59B4 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7014E8621D41EFEF005A59B4 /* ViewController2.m */; };
+		7014E86F1D4206B1005A59B4 /* UIWindow+Touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7014E86E1D4206B1005A59B4 /* UIWindow+Touch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		7014E8471D41DE4B005A59B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7014E84A1D41DE4B005A59B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7014E84C1D41DE4B005A59B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7014E8521D41DE62005A59B4 /* CDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDViewController.h; sourceTree = "<group>"; };
+		7014E8531D41DE62005A59B4 /* CDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
+		7014E8551D41DEA6005A59B4 /* TimeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeObject.h; sourceTree = "<group>"; };
+		7014E8561D41DEA6005A59B4 /* TimeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeObject.m; sourceTree = "<group>"; };
+		7014E8581D41DED4005A59B4 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		7014E8591D41DED4005A59B4 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		7014E85B1D41E019005A59B4 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		7014E85C1D41E019005A59B4 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		7014E8611D41EFEF005A59B4 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		7014E8621D41EFEF005A59B4 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		7014E86D1D4206B1005A59B4 /* UIWindow+Touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Touch.h"; sourceTree = "<group>"; };
+		7014E86E1D4206B1005A59B4 /* UIWindow+Touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Touch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +78,20 @@
 			children = (
 				7014E83E1D41DE4B005A59B4 /* AppDelegate.h */,
 				7014E83F1D41DE4B005A59B4 /* AppDelegate.m */,
+				7014E86D1D4206B1005A59B4 /* UIWindow+Touch.h */,
+				7014E86E1D4206B1005A59B4 /* UIWindow+Touch.m */,
+				7014E8521D41DE62005A59B4 /* CDViewController.h */,
+				7014E8531D41DE62005A59B4 /* CDViewController.m */,
+				7014E8551D41DEA6005A59B4 /* TimeObject.h */,
+				7014E8561D41DEA6005A59B4 /* TimeObject.m */,
+				7014E8581D41DED4005A59B4 /* NavigationController.h */,
+				7014E8591D41DED4005A59B4 /* NavigationController.m */,
 				7014E8411D41DE4B005A59B4 /* ViewController.h */,
 				7014E8421D41DE4B005A59B4 /* ViewController.m */,
+				7014E85B1D41E019005A59B4 /* ViewController1.h */,
+				7014E85C1D41E019005A59B4 /* ViewController1.m */,
+				7014E8611D41EFEF005A59B4 /* ViewController2.h */,
+				7014E8621D41EFEF005A59B4 /* ViewController2.m */,
 				7014E8441D41DE4B005A59B4 /* Main.storyboard */,
 				7014E8471D41DE4B005A59B4 /* Assets.xcassets */,
 				7014E8491D41DE4B005A59B4 /* LaunchScreen.storyboard */,
@@ -150,8 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7014E8431D41DE4B005A59B4 /* ViewController.m in Sources */,
+				7014E85D1D41E019005A59B4 /* ViewController1.m in Sources */,
 				7014E8401D41DE4B005A59B4 /* AppDelegate.m in Sources */,
 				7014E83D1D41DE4B005A59B4 /* main.m in Sources */,
+				7014E85A1D41DED4005A59B4 /* NavigationController.m in Sources */,
+				7014E86F1D4206B1005A59B4 /* UIWindow+Touch.m in Sources */,
+				7014E8631D41EFEF005A59B4 /* ViewController2.m in Sources */,
+				7014E8571D41DEA6005A59B4 /* TimeObject.m in Sources */,
+				7014E8541D41DE62005A59B4 /* CDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

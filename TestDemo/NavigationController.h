@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NavigationController.h
 //  TestDemo
 //
 //  Created by Imp on 16/7/22.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CDViewController.h"
 
-@interface ViewController : CDViewController
-
+@interface NavigationController : UINavigationController
 
 @end
-
